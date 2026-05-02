@@ -1,0 +1,12 @@
+node_modules/
+dist/
+data/
+*.db
+*.log
+.DS_Store
+
+# Editor / tooling local state
+.claude/
+.spotter/
+.vscode/
+*.tsbuildinfo

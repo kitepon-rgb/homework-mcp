@@ -1,0 +1,41 @@
+{
+  "name": "homework-mcp",
+  "version": "0.1.0",
+  "description": "Schedule a homework task that opens a fresh Claude Code session in a new terminal window at a future due time.",
+  "type": "module",
+  "bin": {
+    "homework-mcp": "./dist/index.js",
+    "homework-mcp-fire": "./dist/fire.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20 <23"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "better-sqlite3": "^11.7.0",
+    "uuid": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.0",
+    "@types/uuid": "^11.0.0",
+    "typescript": "^5.7.0"
+  },
+  "license": "MIT",
+  "author": "Quo (kitepon-rgb)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kitepon-rgb/homework-mcp.git"
+  }
+}
