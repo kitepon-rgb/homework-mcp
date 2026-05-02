@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#30363d" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#30363d"/>
+      <stop offset="1" stop-color="#30363d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- subtle grid -->
+  <g stroke="#1c2128" stroke-width="1" opacity="0.6">
+    <path d="M0 160 L1280 160"/>
+    <path d="M0 320 L1280 320"/>
+    <path d="M0 480 L1280 480"/>
+    <path d="M320 0 L320 640"/>
+    <path d="M640 0 L640 640"/>
+    <path d="M960 0 L960 640"/>
+  </g>
+
+  <!-- accent line -->
+  <rect x="0" y="160" width="1280" height="2" fill="url(#line)"/>
+  <rect x="0" y="478" width="1280" height="2" fill="url(#line)"/>
+
+  <!-- terminal mark (top-left) -->
+  <g transform="translate(80, 88)">
+    <rect width="60" height="44" rx="6" fill="none" stroke="#30363d" stroke-width="2"/>
+    <text x="10" y="29" font-size="18" fill="#7ee787" font-family="ui-monospace, monospace">&gt;_</text>
+  </g>
+  <text x="160" y="121" font-size="22" fill="#7d8590" font-weight="500">homework-mcp</text>
+
+  <!-- main pitch -->
+  <text x="80" y="285" font-size="64" font-weight="700" fill="#f0f6fc">homework for your</text>
+  <text x="80" y="365" font-size="64" font-weight="700" fill="#7ee787">future Claude Code</text>
+  <text x="80" y="425" font-size="28" fill="#7d8590" font-weight="400">a fresh session, in a new window, on the date you said.</text>
+
+  <!-- mini timeline at bottom -->
+  <g transform="translate(80, 540)">
+    <text font-size="18" fill="#58a6ff" font-family="ui-monospace, monospace">$</text>
+    <text x="22" font-size="18" fill="#c9d1d9" font-family="ui-monospace, monospace">homework_schedule</text>
+    <text x="240" font-size="18" fill="#7d8590" font-family="ui-monospace, monospace">→</text>
+    <text x="270" font-size="18" fill="#c9d1d9" font-family="ui-monospace, monospace">schtasks</text>
+    <text x="370" font-size="18" fill="#7d8590" font-family="ui-monospace, monospace">/</text>
+    <text x="385" font-size="18" fill="#c9d1d9" font-family="ui-monospace, monospace">launchd</text>
+    <text x="475" font-size="18" fill="#7d8590" font-family="ui-monospace, monospace">/</text>
+    <text x="490" font-size="18" fill="#c9d1d9" font-family="ui-monospace, monospace">systemd</text>
+    <text x="585" font-size="18" fill="#7d8590" font-family="ui-monospace, monospace">→</text>
+    <text x="615" font-size="18" fill="#c9d1d9" font-family="ui-monospace, monospace">new window</text>
+    <text x="745" font-size="18" fill="#7d8590" font-family="ui-monospace, monospace">→</text>
+    <text x="775" font-size="18" fill="#7ee787" font-family="ui-monospace, monospace">claude</text>
+    <text x="850" font-size="18" fill="#7d8590" font-family="ui-monospace, monospace">(prompt loaded)</text>
+  </g>
+
+  <!-- right-side ornament: clock/calendar minimal -->
+  <g transform="translate(960, 220)" stroke="#30363d" stroke-width="2" fill="none">
+    <circle cx="100" cy="100" r="92" stroke="#21262d"/>
+    <circle cx="100" cy="100" r="92" stroke="#7ee787" stroke-dasharray="40 540" stroke-linecap="round" transform="rotate(-90 100 100)"/>
+    <line x1="100" y1="100" x2="100" y2="40" stroke="#c9d1d9" stroke-width="3" stroke-linecap="round"/>
+    <line x1="100" y1="100" x2="148" y2="100" stroke="#c9d1d9" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="100" cy="100" r="4" fill="#c9d1d9" stroke="none"/>
+  </g>
+  <text x="1060" y="450" font-size="16" fill="#7d8590" text-anchor="middle" font-family="ui-monospace, monospace">due_at</text>
+</svg>
