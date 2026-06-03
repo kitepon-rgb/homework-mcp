@@ -4,7 +4,12 @@
 
 # homework-mcp
 
-[English](./README.md) ・ **日本語**
+[![npm](https://img.shields.io/npm/v/homework-mcp?color=cb3837&logo=npm)](https://www.npmjs.com/package/homework-mcp)
+[![license](https://img.shields.io/npm/l/homework-mcp?color=blue)](LICENSE)
+[![node](https://img.shields.io/node/v/homework-mcp?color=339933&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![GitHub release](https://img.shields.io/github/v/release/kitepon-rgb/homework-mcp?color=24292e&logo=github)](https://github.com/kitepon-rgb/homework-mcp/releases)
+
+[English](README.md) · **日本語**
 
 > **Claude Code に未来の自分への宿題を仕込む MCP サーバー。** N 日後 / N 週間後 / N ヶ月後の指定時刻に新規ターミナルウィンドウで Claude Code セッションが立ち上がり、仕込んだプロンプトが最初のメッセージとして渡される。
 
