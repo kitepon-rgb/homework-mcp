@@ -7,7 +7,7 @@
 [![npm](https://img.shields.io/npm/v/homework-mcp?color=cb3837&logo=npm)](https://www.npmjs.com/package/homework-mcp)
 [![license](https://img.shields.io/npm/l/homework-mcp?color=blue)](LICENSE)
 [![node](https://img.shields.io/node/v/homework-mcp?color=339933&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![GitHub release](https://img.shields.io/github/v/release/kitepon-rgb/homework-mcp?color=24292e&logo=github)](https://github.com/kitepon-rgb/homework-mcp/releases)
+[![GitHub release](https://img.shields.io/github/v/release/kitepon/homework-mcp?color=24292e&logo=github)](https://github.com/kitepon/homework-mcp/releases)
 
 **English** · [日本語](README.ja.md)
 
@@ -174,9 +174,9 @@ If a homework task can't be scheduled or fired correctly, you find out **now**, 
 
 ## Related
 
-- [Caveat](https://github.com/kitepon-rgb/Caveat) — long-term storage of "negative knowledge" (traps), the inspiration for the elapsed-time prompt header.
-- [Relay-MCP](https://github.com/kitepon-rgb/Relay) — the SQLite + MCP server pattern this project reuses.
-- [Throughline](https://github.com/kitepon-rgb/Throughline) — context compression and cross-session memory carry-over.
+- [Caveat](https://github.com/kitepon/Caveat) — long-term storage of "negative knowledge" (traps), the inspiration for the elapsed-time prompt header.
+- [Relay-MCP](https://github.com/kitepon/Relay) — the SQLite + MCP server pattern this project reuses.
+- [Throughline](https://github.com/kitepon/Throughline) — context compression and cross-session memory carry-over.
 
 ## License
 

@@ -33,9 +33,9 @@
     "typescript": "^5.7.0"
   },
   "license": "MIT",
-  "author": "Quo (kitepon-rgb)",
+  "author": "Quo (kitepon)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kitepon-rgb/homework-mcp.git"
+    "url": "https://github.com/kitepon/homework-mcp.git"
   }
 }

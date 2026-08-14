@@ -7,7 +7,7 @@
 [![npm](https://img.shields.io/npm/v/homework-mcp?color=cb3837&logo=npm)](https://www.npmjs.com/package/homework-mcp)
 [![license](https://img.shields.io/npm/l/homework-mcp?color=blue)](LICENSE)
 [![node](https://img.shields.io/node/v/homework-mcp?color=339933&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![GitHub release](https://img.shields.io/github/v/release/kitepon-rgb/homework-mcp?color=24292e&logo=github)](https://github.com/kitepon-rgb/homework-mcp/releases)
+[![GitHub release](https://img.shields.io/github/v/release/kitepon/homework-mcp?color=24292e&logo=github)](https://github.com/kitepon/homework-mcp/releases)
 
 [English](README.md) · **日本語**
 
@@ -170,9 +170,9 @@ Windows native は `bash` が PATH 必須（Git for Windows または WSL launch
 
 ## 関連プロジェクト
 
-- [Caveat](https://github.com/kitepon-rgb/Caveat) — 罠（負の知識）の長期保存。経過時間ヘッダ前置のアイデア元
-- [Relay-MCP](https://github.com/kitepon-rgb/Relay) — SQLite + MCP サーバーのパターン参照元
-- [Throughline](https://github.com/kitepon-rgb/Throughline) — context 圧縮、`/clear` 後のセッション間記憶引継ぎ
+- [Caveat](https://github.com/kitepon/Caveat) — 罠（負の知識）の長期保存。経過時間ヘッダ前置のアイデア元
+- [Relay-MCP](https://github.com/kitepon/Relay) — SQLite + MCP サーバーのパターン参照元
+- [Throughline](https://github.com/kitepon/Throughline) — context 圧縮、`/clear` 後のセッション間記憶引継ぎ
 
 ## License
 
